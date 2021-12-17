@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Legördülő lista minta</legend>
+        <select name="select" id="select" size="6">
+            <option value="januar">Január hónap</option>
+            <option value="februar">Február hónap</option>
+            <option value="marcius">Március hónap</option>
+            <option value="aprilis">Április hónap</option>
+            <option value="majus">Május hónap</option>
+            <option value="junius">Június hónap</option>
+            <option value="julius">Július hónap</option>
+            <option value="augusztus">Augusztus hónap</option>
+            <option value="szeptember">Szeptember hónap</option>
+            <option value="oktober">Október hónap</option>
+            <option value="november">November hónap</option>
+            <option value="december" selected>December hónap</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Csúszka/Gördítősáv minta</legend>
+        <label for="red">RED:</label>
+        <input type="range" id="green"><br>
+        <label for="green">GREEN:</label>
+        <input type="range" id="red"><br>
+        <label for="blue">BLUE:</label>
+        <input type="range" id="blue">
+    </fieldset>
+    <fieldset>
+        <legend>Rádiónyomógomb</legend>
+        <input type="radio" name="color" id="hotpink" value="hotpink">
+        <label for="hotpink">HotPink</label>
+        <input type="radio" name="color" id="goldenrod" value="goldenrod" checked>
+        <label for="goldenrod">GoldenRod</label>
+        <input type="radio" name="color" id="olive" value="olive">
+        <label for="olive">Olive</label>
+    </fieldset>
+    <input type="submit" value="Elküldés">
+</body>
+
+</html>
